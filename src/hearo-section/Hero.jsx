@@ -132,7 +132,7 @@ function Hero() {
         </div>
         </div>
     <div className="hero-right">
-     <img src="public/hero-img.webp"></img>
+     <img src="assets/hero-img.webp"></img>
      </div>
     </main>
   )
