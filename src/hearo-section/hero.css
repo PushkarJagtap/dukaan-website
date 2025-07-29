@@ -1,0 +1,50 @@
+main {
+  display: flex;
+  padding: var(--common-padding);   
+   justify-content: space-around; 
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+   background-image: url("https://mydukaan.io/_next/static/media/banner-home-main.ebd707dd321420dd97b2e08e0aa39020.webp"); 
+   background-repeat: no-repeat; 
+  background-size: cover;    
+}
+.hero-section{
+    margin-left:183px;
+}
+.heading-first{
+     font-size: 24px;
+    line-height: 54px;
+    font-weight: 800;
+    letter-spacing: -.05em;
+}
+.second-para{
+    margin-top:30px;
+    font-size: 22px;
+}
+#primary-btn{
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color:#146eb4;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-right {
+  flex-shrink: 0;
+  width: 50vw; 
+}
+
+.hero-right img {
+  width: 100%;
+ 
+}
+.available-on {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 25px;
+}
