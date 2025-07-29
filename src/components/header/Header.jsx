@@ -3,7 +3,7 @@ function Header(){
     return(
         <header>
                 <div className="header-left">
-                <img src="assets/logo.svg"></img>
+                <img src="public/logo.svg"></img>
                  <h1>
                  <ul><a href='/'>Products</a></ul>
                     <ul><a href='/'>Company</a></ul>

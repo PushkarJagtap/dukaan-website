@@ -1,5 +1,4 @@
 import './hero.css'
-
 function Hero() {
   return (
     <main>
@@ -132,7 +131,7 @@ function Hero() {
         </div>
         </div>
     <div className="hero-right">
-     <img src="assets/hero-img.webp"></img>
+    <img src="assets/hero-img.webp"></img>
      </div>
     </main>
   )
