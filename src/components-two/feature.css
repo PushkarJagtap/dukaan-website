@@ -1,0 +1,36 @@
+.heading{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(219, 255, 135);
+    height:90vh;
+}
+.heading h1{
+    padding-top: 90px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.heading h3{
+    margin-top: 10px;
+    font-size: large;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px; /* space between items */
+  padding: 10px;
+  margin-left:20px;
+  margin-right:20px ;
+
+}
+
+.box {
+ align-items: center;
+ justify-content: center;
+  background: #4CAF50;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  height: 300px;
+  width: 380px;
+  border-radius: 8px;
+}
