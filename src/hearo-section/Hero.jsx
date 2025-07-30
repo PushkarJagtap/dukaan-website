@@ -1,4 +1,6 @@
 import './hero.css'
+import photo from "../assets/photo.png";
+
 function Hero() {
   return (
     <main>
@@ -131,7 +133,7 @@ function Hero() {
         </div>
         </div>
     <div className="hero-right">
-    <img src="assets/hero-img.webp"></img>
+  <img src={photo} alt="photo" />
      </div>
     </main>
   )
